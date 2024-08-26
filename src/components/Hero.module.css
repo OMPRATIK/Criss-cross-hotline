@@ -1,0 +1,54 @@
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.605),
+      rgba(12, 12, 12, 0.605)
+    ),
+    url("../assets/hero.jpg");
+  background-size: cover;
+}
+
+.mainHeading {
+  color: #fff;
+}
+
+.main {
+  margin: 8rem auto;
+  width: 900px;
+}
+
+.main h1 {
+  font-size: 10rem;
+  color: #9b3922;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.main h1 span {
+  font-size: 11rem;
+}
+.main p {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.main div {
+  width: 50%;
+}
+
+.btn {
+  margin-top: 1.6rem;
+  padding: 1.2rem 2rem;
+  font-size: 2.4rem;
+  border: none;
+  background-color: #9b3922;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #bc4a31;
+}
