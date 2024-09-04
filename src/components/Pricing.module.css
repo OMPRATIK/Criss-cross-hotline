@@ -1,0 +1,20 @@
+.container {
+  background-color: #9b3922;
+}
+
+.innerContainer {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 5.2rem;
+}
+
+.innerContainer .items {
+  display: flex;
+  gap: 2rem;
+}
+
+.item {
+  background-color: #000;
+  color: #fff;
+  padding: 2.4rem;
+}

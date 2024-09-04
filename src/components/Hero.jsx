@@ -11,7 +11,9 @@ function Hero() {
           </h1>
           <p>Your gateway for seamless RTO services and vehicle insurance</p>
         </div>
-        <button className={styles.btn}>CONTACT US</button>
+        <button className={styles.btn}>
+          CONTACT US <span>&rarr;</span>
+        </button>
       </main>
     </div>
   );

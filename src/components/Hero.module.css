@@ -9,12 +9,13 @@
 }
 
 .mainHeading {
-  color: #fff;
+  color: #aaa;
 }
 
 .main {
-  margin: 8rem auto;
-  width: 900px;
+  margin: 6rem auto;
+  width: 116rem;
+  padding: 4rem;
 }
 
 .main h1 {
@@ -51,4 +52,13 @@
 
 .btn:hover {
   background-color: #bc4a31;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ff937b;
+}
+
+.btn span {
+  font-size: 3.2rem;
 }
