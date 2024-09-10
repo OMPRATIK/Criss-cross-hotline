@@ -6,6 +6,7 @@
     ),
     url("../assets/hero.jpg");
   background-size: cover;
+  /* overflow: hidden; */
 }
 
 .mainHeading {
